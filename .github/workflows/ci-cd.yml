@@ -1,0 +1,13 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  # Jobs will be added in subsequent tasks (2.2–2.4 and Tasks 3–5)
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow skeleton — jobs to be implemented"
